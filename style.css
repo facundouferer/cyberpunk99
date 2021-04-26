@@ -1,0 +1,195 @@
+body {
+   background-color: black;
+   display: table;
+}
+
+.sol {
+   animation: animacionSol 5s infinite alternate;
+   filter: blur(1px);
+}
+
+.fondo {
+   left: 0;
+   margin: 0;
+   position: absolute;
+   right: 0;
+   text-align: center;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+.contenido {
+   left: 0;
+   margin: 0;
+   position: absolute;
+   right: 0;
+   text-align: center;
+   top: 50%;
+   transform: translateY(-50%);
+   color: #fff;
+   font-family: 'Great Vibes', cursive;   
+}
+
+a{
+   color: white;
+}
+
+a:link{
+   text-decoration: none;
+}
+
+a:visited{
+   color: white;
+}
+
+.solTrasero02 {
+   filter: blur(100px);
+   fill: #D31ED3;
+   stroke-width: 50px;
+}
+
+.montaniaFondo {
+   filter: blur(80px);
+   fill: #1C4CC4;
+   stroke-width: 10px;
+}
+
+@keyframes animacionSol {
+   0% {
+      fill: #EC67A3;
+   }
+   100% {
+      fill: #E08CB6;
+   }
+}
+
+.solTrasero {
+   animation-name: animacionSolTrasero;
+   animation-delay: 0s;
+   animation-iteration-count: infinite;
+   animation-duration: 7s;
+   filter: blur(100px);
+}
+
+@keyframes animacionSolTrasero {
+   0% {
+      stroke: red;
+      stroke-width: 1px;
+   }
+   100% {
+      stroke: black;
+      stroke-width: 1300px;
+   }
+}
+
+.horizonte {
+   stroke: red;
+   stroke-width: 3;
+   filter: blur(2px);
+}
+
+.linea {
+   stroke: #984A96;
+   stroke-width: 3;
+   filter: blur(1px);
+}
+
+.horizontal01 {
+   animation: animacionHorizontal01 10s ease-in 0s infinite;
+}
+
+@keyframes animacionHorizontal01 {
+   to {
+      transform: translateY(500px);
+   }
+}
+
+.horizontal02 {
+   animation: animacionHorizontal02 9s ease-in 1s infinite;
+}
+
+@keyframes animacionHorizontal02 {
+   to {
+      transform: translateY(500px);
+   }
+}
+
+.horizontal03 {
+   animation: animacionHorizontal03 8s ease-in 2s infinite;
+}
+
+@keyframes animacionHorizontal03 {
+   to {
+      transform: translateY(500px);
+   }
+}
+
+.horizontal04 {
+   animation: animacionHorizontal04 7s ease-in 3s infinite;
+}
+
+@keyframes animacionHorizontal04 {
+   to {
+      transform: translateY(500px);
+   }
+}
+
+.horizontal05 {
+   animation: animacionHorizontal05 6s ease-in 4s infinite;
+}
+
+@keyframes animacionHorizontal05 {
+   to {
+      transform: translateY(500px);
+   }
+}
+
+.horizontal06 {
+   animation: animacionHorizontal06 5s ease-in 5s infinite;
+}
+
+@keyframes animacionHorizontal06 {
+   to {
+      transform: translateY(500px);
+   }
+}
+
+.horizontal07 {
+   animation: animacionHorizontal07 4s ease-in 6s infinite;
+}
+
+@keyframes animacionHorizontal07 {
+   to {
+      transform: translateY(500px);
+   }
+}
+
+.horizontal08 {
+   animation: animacionHorizontal08 3s ease-in 7s infinite;
+}
+
+@keyframes animacionHorizontal08 {
+   to {
+      transform: translateY(500px);
+   }
+}
+
+.horizontal09 {
+   animation: animacionHorizontal09 2s ease-in 8s infinite;
+}
+
+@keyframes animacionHorizontal09 {
+   to {
+      transform: translateY(500px);
+   }
+}
+
+.horizontal10 {
+   animation: animacionHorizontal10 1s ease-in 9s infinite;
+}
+
+@keyframes animacionHorizontal10 {
+   to {
+      transform: translateY(500px);
+   }
+}
