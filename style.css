@@ -18,6 +18,11 @@ body {
    transform: translateY(-50%);
 }
 
+.spotify {
+   opacity: 80%;
+   border-radius: 5%;
+}
+
 .contenido {
    left: 0;
    margin: 0;
@@ -27,18 +32,18 @@ body {
    top: 50%;
    transform: translateY(-50%);
    color: #fff;
-   font-family: 'Great Vibes', cursive;   
+   font-family: 'Great Vibes', cursive;
 }
 
-a{
+a {
    color: white;
 }
 
-a:link{
+a:link {
    text-decoration: none;
 }
 
-a:visited{
+a:visited {
    color: white;
 }
 
