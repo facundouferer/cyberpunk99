@@ -2,38 +2,47 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CyberPunk</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyberPunk</title>
 
-	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" />
 </head>
 
 <body>
+    <div class="fondo">
+        <svg version="1.1" id="accion" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 990" style="enable-background: new 0 0 1920 990" xml:space="preserve">
+        <style type="text/css">
+          @import url(style.css);
+        </style>
 
-	<div class="fondo">
-		<svg version="1.1" id="accion" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-			x="0px" y="0px" viewBox="0 0 1920 990" style="enable-background:new 0 0 1920 990;" xml:space="preserve">
-			<style type="text/css">
-				@import url(style.css);
-			</style>
+        <rect id="cielo" class="st0" width="1920" height="990" />
 
-			<rect id="cielo" class="st0" width="1920" height="990" />
+        <circle
+          id="solTrasero"
+          class="solTrasero"
+          cx="945.7"
+          cy="458.9"
+          r="436.5"
+        />
 
-			<circle id="solTrasero" class="solTrasero" cx="945.7" cy="458.9" r="436.5" />
+        <circle
+          id="solTrasero02"
+          class="solTrasero02"
+          cx="945.7"
+          cy="458.9"
+          r="436.5"
+        />
 
-			<circle id="solTrasero02" class="solTrasero02" cx="945.7" cy="458.9" r="436.5" />
+        <circle id="sol" class="sol" cx="945.7" cy="458.9" r="436.5" />
 
-			<circle id="sol" class="sol" cx="945.7" cy="458.9" r="436.5" />
-
-
-
-			<path id="ciudad" d="M1240.5,440.5c0,20,0,40,0,60.1c-205.7,0-411.3,0-617,0c0-21.5,0-43.1,0-64.6c7.3-1.6,14.6-4.3,22.3-0.4
+        <path
+          id="ciudad"
+          d="M1240.5,440.5c0,20,0,40,0,60.1c-205.7,0-411.3,0-617,0c0-21.5,0-43.1,0-64.6c7.3-1.6,14.6-4.3,22.3-0.4
 	c0-1.3,0-2,0-2.8c0-21,0-42.1,0-63.1c0-1.5,0.4-2.3,2-2.5c1.4-0.2,2.7-0.8,4.4-1.4c0-10.4,0-20.9,0-31.4c0.2,0,0.5-0.1,0.7-0.1
 	c0.2,0.6,0.5,1.1,0.5,1.7c0,7.3,0,14.6,0,21.9c0,0.7,0,1.3,0,2c1.3-0.4,2.3-0.8,3.4-1.2c1.1-0.4,2.1-1,3.2-1.3
 	c1.5-0.4,2-1.1,1.5-2.7c-0.8-2.6,0.1-4,2.5-4.8c0.5-0.2,0.9-0.3,1.4-0.4c1.1-0.3,1.7-0.9,1.6-2.2c-0.1-0.8-0.3-2.1,0.1-2.5
@@ -475,58 +484,265 @@
 	c0.1,0.1,0.4,0,0.5-0.1C979,368.3,978.5,366.3,977.5,365.8z M978.3,405.4c-0.2,0-0.4,0.1-0.6,0.1c-0.3,2.5-0.3,2.6,1.1,3.3
 	C978.6,407.5,978.4,406.4,978.3,405.4z M1199.2,471c0.3,0,0.6,0,0.8,0c0-0.9,0.1-1.7,0-2.6c0-0.2-0.5-0.5-0.8-0.6
 	c-0.1,0-0.5,0.3-0.5,0.5C1198.8,469.2,1199,470.1,1199.2,471z M978.6,375.1c-0.2-1.5,0.8-2.9-1.1-3.7
-	C977.8,372.6,976.8,373.9,978.6,375.1z M977.6,348.9c0.1,1.4-0.7,2.7,1,3.7C978.4,351.2,979.2,349.9,977.6,348.9z" />
+	C977.8,372.6,976.8,373.9,978.6,375.1z M977.6,348.9c0.1,1.4-0.7,2.7,1,3.7C978.4,351.2,979.2,349.9,977.6,348.9z"
+        />
 
-			<polygon id="montaniaFondo" class="montaniaFondo" points="-2.7,391.5 95.9,465.6 234.5,422.4 393.3,461.7 460.6,442.7 522.5,487.1 652.4,496.9 1218.9,499.1 
-	1522.4,442.7 1626,463.1 1772.7,475.2 1854.8,426.6 1917.3,422.4 1917.3,505.2 -2.7,505.2 " />
+        <polygon
+          id="montaniaFondo"
+          class="montaniaFondo"
+          points="-2.7,391.5 95.9,465.6 234.5,422.4 393.3,461.7 460.6,442.7 522.5,487.1 652.4,496.9 1218.9,499.1 
+	1522.4,442.7 1626,463.1 1772.7,475.2 1854.8,426.6 1917.3,422.4 1917.3,505.2 -2.7,505.2 "
+        />
 
-			<polygon id="montania" points="-2.7,391.5 95.9,465.6 234.5,422.4 393.3,461.7 460.6,442.7 522.5,487.1 652.4,496.9 1218.9,499.1 
-	1522.4,442.7 1626,463.1 1772.7,475.2 1854.8,426.6 1917.3,422.4 1917.3,505.2 -2.7,505.2 " />
+        <polygon
+          id="montania"
+          points="-2.7,391.5 95.9,465.6 234.5,422.4 393.3,461.7 460.6,442.7 522.5,487.1 652.4,496.9 1218.9,499.1 
+	1522.4,442.7 1626,463.1 1772.7,475.2 1854.8,426.6 1917.3,422.4 1917.3,505.2 -2.7,505.2 "
+        />
 
-			<rect id="tierra" y="504.8" width="1928.8" height="485.2" />
+        <rect id="tierra" y="504.8" width="1928.8" height="485.2" />
 
-			<line id="vertical15" class="linea" x1="362" y1="500" x2="0" y2="533.2" />
-			<line id="vertical14" class="linea" x1="716.7" y1="500" x2="0" y2="648.3" />
-			<line id="vertical13" class="linea" x1="821.7" y1="500" x2="0" y2="808.4" />
-			<line id="vertical12" class="linea" x1="864.1" y1="500" x2="0" y2="990" />
-			<line id="vertical11" class="linea" x1="888.7" y1="500" x2="285.6" y2="990" />
-			<line id="vertical10" class="linea" x1="912.3" y1="500" x2="558.8" y2="990" />
-			<line id="vertical09" class="linea" x1="930.7" y1="500" x2="771.4" y2="990" />
-			<line id="vertical08" class="linea" x1="945.7" y1="990" x2="945.7" y2="500" />
-			<line id="vertical07" class="linea" x1="1134.8" y1="990" x2="962" y2="500" />
-			<line id="vertical06" class="linea" x1="1331.3" y1="990" x2="979" y2="500" />
-			<line id="vertical05" class="linea" x1="1591.7" y1="990" x2="1001.5" y2="500" />
-			<line id="vertical04" class="linea" x1="1920" y1="990" x2="1028.5" y2="500" />
-			<line id="vertical03" class="linea" x1="1920" y1="808.4" x2="1074.7" y2="500" />
-			<line id="vertical02" class="linea" x1="1920" y1="660.4" x2="1169.5" y2="500" />
-			<line id="vertical01" class="linea" x1="1920" y1="533.2" x2="1552.6" y2="500" />
+        <line
+          id="vertical15"
+          class="linea"
+          x1="362"
+          y1="500"
+          x2="0"
+          y2="533.2"
+        />
+        <line
+          id="vertical14"
+          class="linea"
+          x1="716.7"
+          y1="500"
+          x2="0"
+          y2="648.3"
+        />
+        <line
+          id="vertical13"
+          class="linea"
+          x1="821.7"
+          y1="500"
+          x2="0"
+          y2="808.4"
+        />
+        <line
+          id="vertical12"
+          class="linea"
+          x1="864.1"
+          y1="500"
+          x2="0"
+          y2="990"
+        />
+        <line
+          id="vertical11"
+          class="linea"
+          x1="888.7"
+          y1="500"
+          x2="285.6"
+          y2="990"
+        />
+        <line
+          id="vertical10"
+          class="linea"
+          x1="912.3"
+          y1="500"
+          x2="558.8"
+          y2="990"
+        />
+        <line
+          id="vertical09"
+          class="linea"
+          x1="930.7"
+          y1="500"
+          x2="771.4"
+          y2="990"
+        />
+        <line
+          id="vertical08"
+          class="linea"
+          x1="945.7"
+          y1="990"
+          x2="945.7"
+          y2="500"
+        />
+        <line
+          id="vertical07"
+          class="linea"
+          x1="1134.8"
+          y1="990"
+          x2="962"
+          y2="500"
+        />
+        <line
+          id="vertical06"
+          class="linea"
+          x1="1331.3"
+          y1="990"
+          x2="979"
+          y2="500"
+        />
+        <line
+          id="vertical05"
+          class="linea"
+          x1="1591.7"
+          y1="990"
+          x2="1001.5"
+          y2="500"
+        />
+        <line
+          id="vertical04"
+          class="linea"
+          x1="1920"
+          y1="990"
+          x2="1028.5"
+          y2="500"
+        />
+        <line
+          id="vertical03"
+          class="linea"
+          x1="1920"
+          y1="808.4"
+          x2="1074.7"
+          y2="500"
+        />
+        <line
+          id="vertical02"
+          class="linea"
+          x1="1920"
+          y1="660.4"
+          x2="1169.5"
+          y2="500"
+        />
+        <line
+          id="vertical01"
+          class="linea"
+          x1="1920"
+          y1="533.2"
+          x2="1552.6"
+          y2="500"
+        />
 
-			<line id="horizontal10" class="linea horizontal10" x1="0" y1="500" x2="1920" y2="500" />
-			<line id="horizontal09" class="linea horizontal09" x1="0" y1="500" x2="1920" y2="500" />
-			<line id="horizontal08" class="linea horizontal08" x1="0" y1="500" x2="1920" y2="500" />
-			<line id="horizontal07" class="linea horizontal07" x1="0" y1="500" x2="1920" y2="500" />
-			<line id="horizontal06" class="linea horizontal06" x1="0" y1="500" x2="1920" y2="500" />
-			<line id="horizontal05" class="linea horizontal05" x1="0" y1="500" x2="1920" y2="500" />
-			<line id="horizontal04" class="linea horizontal04" x1="0" y1="500" x2="1920" y2="500" />
-			<line id="horizontal03" class="linea horizontal03" x1="0" y1="500" x2="1920" y2="500" />
-			<line id="horizontal02" class="linea horizontal02" x1="0" y1="500" x2="1920" y2="500" />
-			<line id="horizontal01" class="linea horizontal01" x1="0" y1="500" x2="1920" y2="500" />
+        <line
+          id="horizontal10"
+          class="linea horizontal10"
+          x1="0"
+          y1="500"
+          x2="1920"
+          y2="500"
+        />
+        <line
+          id="horizontal09"
+          class="linea horizontal09"
+          x1="0"
+          y1="500"
+          x2="1920"
+          y2="500"
+        />
+        <line
+          id="horizontal08"
+          class="linea horizontal08"
+          x1="0"
+          y1="500"
+          x2="1920"
+          y2="500"
+        />
+        <line
+          id="horizontal07"
+          class="linea horizontal07"
+          x1="0"
+          y1="500"
+          x2="1920"
+          y2="500"
+        />
+        <line
+          id="horizontal06"
+          class="linea horizontal06"
+          x1="0"
+          y1="500"
+          x2="1920"
+          y2="500"
+        />
+        <line
+          id="horizontal05"
+          class="linea horizontal05"
+          x1="0"
+          y1="500"
+          x2="1920"
+          y2="500"
+        />
+        <line
+          id="horizontal04"
+          class="linea horizontal04"
+          x1="0"
+          y1="500"
+          x2="1920"
+          y2="500"
+        />
+        <line
+          id="horizontal03"
+          class="linea horizontal03"
+          x1="0"
+          y1="500"
+          x2="1920"
+          y2="500"
+        />
+        <line
+          id="horizontal02"
+          class="linea horizontal02"
+          x1="0"
+          y1="500"
+          x2="1920"
+          y2="500"
+        />
+        <line
+          id="horizontal01"
+          class="linea horizontal01"
+          x1="0"
+          y1="500"
+          x2="1920"
+          y2="500"
+        />
 
-			<line id="horizontal01" class="horizonte" x1="0" y1="500" x2="1928.8" y2="500" />
+        <line
+          id="horizontal01"
+          class="horizonte"
+          x1="0"
+          y1="500"
+          x2="1928.8"
+          y2="500"
+        />
+      </svg>
+    </div>
 
-		</svg>
-	</div>
+    <div class="contenido">
+        <a href="https://www.linkedin.com/in/facundouferer/">
+            <h1>Facundo Uferer</h1>
+        </a>
+        <div class="redes">
 
-	<div class="contenido">
-		<a href="https://www.linkedin.com/in/facundouferer/">
-			<h1>Retro Cyber Punk</h1>
-		</a>
+            <strong>REDES DE TRABAJO</strong> <br>
 
-		<iframe src="https://open.spotify.com/embed/playlist/0dCDzOArzWfuFME2CicdRA" width="300" height="380"
-			frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify"></iframe>
+            <a href="https://github.com/facundouferer" target="_blank">💻GitHub</a> |
+            <a href="https://www.linkedin.com/in/facundouferer" target="_blank">🚀LinkeIn</a> |
+            <a href="https://cafecito.app/facundouferer">☕Cafecito</a>
 
-	</div>
+            <br>
 
+            <strong>REDES SOCIALES</strong> <br>
+            <a href="https://terobit.com" target="_blank">⭐Web</a> |
+            <a href="https://twitter.com/facundouferer" target="_blank">🐦Twitter</a>|
+            <a href="https://www.facebook.com/facundouferer" target="_blank">🟦Facebook</a> |
+            <a href="https://www.instagram.com/facundouferer">📷Instagram</a> |
+
+            <br>
+
+            <strong>PODCAST & TV</strong> <br>
+            <a href="https://www.youtube.com/channel/UCJBnfJgdlNXdSYDFSxlQ0kg">📺YouTube</a>
+            <a href="https://www.twitch.tv/psicodelianerd">📺Twitch</a> |
+            <a href="https://open.spotify.com/show/2CiWuSGhYr70Nwlanpoqzx">📻Spotify</a> |
+        </div>
+    </div>
 </body>
 
 </html>
