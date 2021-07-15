@@ -18,11 +18,6 @@ body {
     transform: translateY(-50%);
 }
 
-.spotify {
-    opacity: 80%;
-    border-radius: 5%;
-}
-
 .contenido {
     left: 0;
     margin: 0;
@@ -34,6 +29,13 @@ body {
     color: #fff;
     font-family: "Great Vibes", cursive;
     align-items: center;
+}
+
+.como {
+    font-family: "Courier New", Courier, monospace;
+    font-style: italic;
+    color: dimgrey;
+    font-size: 12px;
 }
 
 .redes {
